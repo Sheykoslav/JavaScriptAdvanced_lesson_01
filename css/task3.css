@@ -1,0 +1,70 @@
+.container{
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+}
+.main{
+  margin: 0 auto;
+  width: 420px;
+  height: 420px;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main div{
+  width: 140px;
+  height: 140px;
+  border:1px solid black;
+  background: #F5DEB3;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  cursor: pointer;
+}
+#new_game{
+  margin: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  cursor: pointer;
+}
+.main>.krestik{
+  background: url(../img/krestik.png) no-repeat center;
+  background-size: 130px 130px;
+  background-color: white;
+}
+.main>.nolik{
+  background: url(../img/nolik.png) no-repeat center;
+  background-size: 130px 130px;
+  background-color: white;
+}
+#player1{
+  width: 200px;
+  height: 300px;
+}
+.spongebob{
+  background: url(../img/spongebob.png) no-repeat center;
+  background-size: 170px 200px;
+}
+.s-winner{
+  background: url(../img/s-winner.png) no-repeat center;
+  background-size: 220px 200px;
+}
+p{
+  font-size: 20px;
+  position: relative;
+  top: 80%;
+  left: 30%;
+}
+#player2{
+  width: 200px;
+  height: 300px;
+}
+.patrik{
+  background: url(../img/patrik.png) no-repeat center;
+  background-size: 190px 180px;
+}
+.p-winner{
+  background: url(../img/p-winner.png) no-repeat center;
+  background-size: 170px 200px;
+}
